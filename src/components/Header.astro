@@ -1,0 +1,16 @@
+---
+import { projectName } from '../../design/adapters/web/studio-theme';
+---
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Home"><span class="mark" aria-hidden="true">{projectName[0]}</span><span>{projectName}</span></a>
+    <button class="btn btn-ghost btn-sm menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-primary btn-sm" href="#contact">Get in touch</a>
+    </nav>
+  </div>
+</header>
